@@ -1,0 +1,7 @@
+﻿<Application
+    x:Class="WindowsML_IoTButton.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:WindowsML_IoTButton">
+
+</Application>
