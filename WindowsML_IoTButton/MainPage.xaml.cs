@@ -58,7 +58,7 @@ namespace WindowsML_IoTButton
         bool reverseCamera = false;  // set if camera preview needs reverse streaming    @pwcadsf
 
         IotHub hub = new IotHub();
-        DeviceClient _DeviceClient = DeviceClient.Create("IoTHub6.azure-devices.net", new DeviceAuthenticationWithRegistrySymmetricKey("StoreArea14", "RokQKjY/CKlpOwd2Rtgb8QEZrJ8+QQtLmPdNo3CMSC0="), TransportType.Mqtt);
+        DeviceClient _DeviceClient = DeviceClient.Create("IoTHub6.azure-devices.net", new DeviceAuthenticationWithRegistrySymmetricKey("", ""), TransportType.Mqtt);
 
         string Msg_Type = "From_Camera", SMS = "", Receiver = "", Area_No="14", Button_No="3", Item_Name = "", jsonParse = "";
 
