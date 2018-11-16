@@ -5,4 +5,6 @@ When the IoT Button pushed, the button sends json to iot hub >> stream analytics
 
 Then the Cameara App checks which item is out of stock and sends json to iot hub >> stream analytics >> service bus >. azure function >> SMS
 
+![Helping you to understand](https://raw.githubusercontent.com/pwcasdf/resources/WindowsML_IoTButton.jpg)
+
 [![Windows ML + Azure Demo](https://img.youtube.com/vi/mfyqQlr8eTI.jpg)](https://www.youtube.com/watch?v=mfyqQlr8eTI)
